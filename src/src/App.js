@@ -5,7 +5,6 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 import Landingpage from './pages/Landingpage';
 import Homepage from './pages/Homepage';
-import Watchhistory from './pages/Watchhistory';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
        <Routes>
         <Route path='/' element={<Landingpage/>}/>
         <Route path='/home' element={<Homepage/>}/>
-        <Route path='/watch-history' element={<Watchhistory/>}/>
         </Routes>
 
       </div>

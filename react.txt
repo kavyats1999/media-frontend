@@ -1,0 +1,79 @@
+------------------------------------
+
+Basic commanda
+
+-to create project: npx create-react-app project-className
+-to run project: npm start
+
+
+Basic concepts
+
+-reusable component based approach
+-jsx : javascript xml
+-fast
+
+
+*Installing react meterial
+----------------------------
+
+npm install @mui/material @emotion/react @emotion/styled
+
+*To build project-----npm run build
+
+
+*React-Bootstrap---npm install react-bootstrap bootstrap
+
+
+
+
+
+
+front end difference
+
+
+concept                   angular                       react                               vue
+--------------------------------------------------------------------------------------------------------------------
+1.developer             frame-work---google           library---meta/facebook          framework--opensource
+2.language              typescript                    javascript                       javascript
+3.dom                   real Dom                      virtual Dom                      virtual Dom
+4.data sharing          two data binding              one way data binding             two way data binding
+
+
+react ---- component based application
+
+components:- create a js file having a name starts with capital letter
+
+        two type of components
+
+        1. class based component-- stateful component
+        2.function based component--stateless component
+
+        react hook:- hook is a predefined function and name starts with use key word
+
+        use predefined-function()
+
+        use state()
+
+        state creation syntax
+
+        const[statename,statevalueupdationfunction]=useState()
+
+
+        state:- state is used to store values (also state has an advantage to transfer value) we can share state to child component
+
+
+        Props : is used to share data between parent and child
+
+        conditional rendering: 
+
+ 1.create watch history tab in home page
+
+ 2.create a new component for watch history       
+
+ 3.(no,cardname,url,date) create a watch history key in db.json
+
+ 4.when use click on the video card add data to db.json
+
+ 5.get watch history from  json file to watch history component
+
+ 6.
